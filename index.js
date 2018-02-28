@@ -7,8 +7,8 @@ function takeANumber (katzDeliLine, custName) {
   return "Welcome, " + custName + ". You are number " + katzDeliLine.length + " in line.";
 }
 
-function nowServing (deliLine) {
-  //var deliLine = katzDeli;
+function nowServing () {
+  var deliLine = katzDeli;
   
   if (deliLine.length === 1) {
     return 'There is nobody waiting to be served!'
